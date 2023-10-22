@@ -1,7 +1,7 @@
 ![Image](stringServer1.png)
 
 
-![Image](stringServer2.png)
+![Image](stringSever2.png)
 
 
 ![Image](stringServerCode.png)
