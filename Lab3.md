@@ -26,6 +26,8 @@ This is the method being tested for my lab3:
 
    
 3. The symptom, as the output of running the tests
+   ![Image](testFailed.png)
+   ![Image](testSuccess.png)
    
 4. The bug, as the before-and-after code change required to fix it
    Before:
@@ -123,7 +125,7 @@ This helps us find a word in a document without having to read the whole file.
 The grep -c command returns the amount of lines a word appears in a file. This information could tell you of often occurences or abscences
 of words.
 
-5. grep -l <string> *:
+4. grep -l <string> *:
    ArelyzsMacBook2:911report arelyzmarin$ grep -l "Bin Laden" *
 chapter-11.txt
 chapter-13.3.txt
