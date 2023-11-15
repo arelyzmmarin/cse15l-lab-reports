@@ -39,7 +39,6 @@ This is the method being tested for my lab3:
    
 4. The bug, as the before-and-after code change required to fix it
 
-   Before:
    
 ```java
    static int[] reversed(int[] arr) {
@@ -58,8 +57,7 @@ This is the method being tested for my lab3:
       return newArray;
      }
   ```
-
-<ins>Briefly describe why the fix addresses the issue:</ins>
+6. Briefly describe why the fix addresses the issue:
 
 
 Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
