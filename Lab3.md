@@ -60,7 +60,8 @@ This is the method being tested for my lab3:
    }
   ```
 
-  5. Briefly describe why the fix addresses the issue:
+5. Briefly describe why the fix addresses the issue:
+   
 Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
    Now, reversed is inputting the reverse elemnts of arr into newArray and returning the newArray instead of the old one (arr).
 
@@ -69,7 +70,7 @@ Before, the method reversed was copying the elements from newArray into the inou
    <ins>grep -i "string" <file-name>:</ins>
 
 
-      ArelyzsMacBook2:biomed arelyzmarin$ grep -i "bMi" 1468-6708-3-1.txt
+  ArelyzsMacBook2:biomed arelyzmarin$ grep -i "bMi" 1468-6708-3-1.txt
         between body mass index (BMI) and mortality, controlling
         excess risk for persons with very low BMI, but that persons
         with moderately high BMI had little or no extra risk except
@@ -104,20 +105,20 @@ Before, the method reversed was copying the elements from newArray into the inou
 
 
       
-      ArelyzsMacBook2:biomed arelyzmarin$ grep -i "hyPotHesis" 1471-213X-2-1.txt
+  ArelyzsMacBook2:biomed arelyzmarin$ grep -i "hyPotHesis" 1471-213X-2-1.txt
         hypothesis that a balance exists between serine proteases
         initiated to test this hypothesis 
         neuronal migration. This hypothesis is supported by our
         data support the hypothesis that changes in enzymatic
         on migration, strengthens our hypothesis that this serine
 
-      The grep -i command is a case insensitive search for a word. This command ignores cases and retrieves any variation of the word being searched.
-      For example in the first example, grep -i "bMi" the command could have returned sentences with "BMI", "bmi, "bMi",etc.
+The grep -i command is a case insensitive search for a word. This command ignores cases and retrieves any variation of the word being searched.
+For example in the first example, grep -i "bMi" the command could have returned sentences with "BMI", "bmi, "bMi",etc.
 
   <ins>grep -n "string" <file-name>:</ins>
 
   
-  ArelyzsMacBook2:biomed arelyzmarin$ grep -n  "hypothesis" 1471-213X-2-1.txt
+ArelyzsMacBook2:biomed arelyzmarin$ grep -n  "hypothesis" 1471-213X-2-1.txt
 37:        hypothesis that a balance exists between serine proteases
 40:        initiated to test this hypothesis 
 277:        neuronal migration. This hypothesis is supported by our
