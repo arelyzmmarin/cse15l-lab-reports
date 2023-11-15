@@ -65,7 +65,7 @@ This is the method being tested for my lab3:
 
    Grep Commands
 
-   1. grep -i "string" <file-name>:
+1. grep -i "string" <file-name>:
       ArelyzsMacBook2:biomed arelyzmarin$ grep -i "bMi" 1468-6708-3-1.txt
         between body mass index (BMI) and mortality, controlling
         excess risk for persons with very low BMI, but that persons
