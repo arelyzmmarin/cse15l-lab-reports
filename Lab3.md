@@ -38,6 +38,7 @@ This is the method being tested for my lab3:
    ![Image](testSuccess.png)
    
 4. The bug, as the before-and-after code change required to fix it
+
    Before:
    ```java
    static int[] reversed(int[] arr) {
@@ -61,8 +62,7 @@ This is the method being tested for my lab3:
   ```
 
 5. Briefly describe why the fix addresses the issue:
-   
-Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
+   Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
    Now, reversed is inputting the reverse elemnts of arr into newArray and returning the newArray instead of the old one (arr).
 
    Grep Commands
