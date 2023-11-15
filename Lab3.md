@@ -66,6 +66,8 @@ This is the method being tested for my lab3:
    Grep Commands
 
    <ins>grep -i "string" <file-name>:</ins>
+
+
       ArelyzsMacBook2:biomed arelyzmarin$ grep -i "bMi" 1468-6708-3-1.txt
         between body mass index (BMI) and mortality, controlling
         excess risk for persons with very low BMI, but that persons
@@ -98,6 +100,8 @@ This is the method being tested for my lab3:
         similar, but differences among BMI groups were not
         to the normal BMI group. The effect sizes are shown in
           et al proposed a desirable BMI o. BMI Body mass index
+
+
       
       ArelyzsMacBook2:biomed arelyzmarin$ grep -i "hyPotHesis" 1471-213X-2-1.txt
         hypothesis that a balance exists between serine proteases
@@ -110,12 +114,16 @@ This is the method being tested for my lab3:
       For example in the first example, grep -i "bMi" the command could have returned sentences with "BMI", "bmi, "bMi",etc.
 
   <ins>grep -n "string" <file-name>:</ins>
-         ArelyzsMacBook2:biomed arelyzmarin$ grep -n  "hypothesis" 1471-213X-2-1.txt
+
+  
+  ArelyzsMacBook2:biomed arelyzmarin$ grep -n  "hypothesis" 1471-213X-2-1.txt
 37:        hypothesis that a balance exists between serine proteases
 40:        initiated to test this hypothesis 
 277:        neuronal migration. This hypothesis is supported by our
 354:        data support the hypothesis that changes in enzymatic
 399:        on migration, strengthens our hypothesis that this serine
+
+
 
 
 ArelyzsMacBook2:911report arelyzmarin$ grep -n  "Canada" chapter-6.txt
@@ -131,15 +139,25 @@ The grep -n command outputs the line number that the word being searched for is 
 This helps us find a word in a document without having to read the whole file.
 
 <ins>grep -c "string" <file-name>:</ins>
+
+
    ArelyzsMacBook2:911report arelyzmarin$ grep -c "terrorism" chapter-6.txt
   67
 
+  
+
    ArelyzsMacBook2:911report arelyzmarin$ grep -c "2001" chapter-9.txt
   5
+
+
+  
 The grep -c command returns the amount of lines a word appears in a file. This information could tell you of often occurences or abscences
 of words.
 
 <ins>grep -l <string> *:</ins>
+
+
+
    ArelyzsMacBook2:911report arelyzmarin$ grep -l "Bin Laden" *
 chapter-11.txt
 chapter-13.3.txt
@@ -147,13 +165,18 @@ chapter-13.4.txt
 chapter-13.5.txt
 chapter-6.txt
 
+
+
 ArelyzsMacBook2:911report arelyzmarin$ grep -l "Lincoln" *
 chapter-13.5.txt
 chapter-3.txt
 
+
+
 The grep -l command gives us the files that contain the string given. This is useful if we forget which file has the information we need.
 Let's say we forgot which chapters discuss Bin Laden. we can use this command to give us the chapters that discuss Bin Laden instead of scanning
 through all the files.
+
 
 <ins>Citation:</ins>
 
