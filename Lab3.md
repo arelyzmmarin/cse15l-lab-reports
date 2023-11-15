@@ -59,7 +59,9 @@ This is the method being tested for my lab3:
      }
   ```
 
-5. Briefly describe why the fix addresses the issue:
+<ins>Briefly describe why the fix addresses the issue:</ins>
+
+
 Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
 Now, reversed is inputting the reverse elemnts of arr into newArray and returning the newArray instead of the old one (arr).
 
