@@ -51,14 +51,14 @@ This is the method being tested for my lab3:
    ```
    After:
    
-```java
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      newArray[i] = arr[arr.length - i - 1];
-    }
-    return newArray;
-   }
+  ```java
+    static int[] reversed(int[] arr) {
+      int[] newArray = new int[arr.length];
+      for(int i = 0; i < arr.length; i += 1) {
+        newArray[i] = arr[arr.length - i - 1];
+      }
+      return newArray;
+     }
   ```
 
 5. Briefly describe why the fix addresses the issue:
