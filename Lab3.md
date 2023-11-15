@@ -1,11 +1,16 @@
 This is the method being tested for my lab3:
-static int[] reversed(int[] arr){
+```java
+{
+  static int[] reversed(int[] arr){
  int[] newArray = new int[arr.length];
  for(int i = 0; i< arr.length; i+=1){
      arr[i] = newArray[arr.length - i - 1];
   }
   return arr;
+ }
 }
+```
+
  
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
