@@ -1,6 +1,6 @@
 This is the method being tested for my lab3:
 ```java
-{
+
   static int[] reversed(int[] arr){
  int[] newArray = new int[arr.length];
  for(int i = 0; i< arr.length; i+=1){
@@ -8,26 +8,29 @@ This is the method being tested for my lab3:
   }
   return arr;
  }
-}
 ```
 
  
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
+```java
       @Test
   public void myTestReverse() {
     int[] input1 = {1,2,3,4};
     int[] expected = {4,3,2,1};
     assertArrayEquals(expected, ArrayExamples.reversed(input1));
   }
+```
    
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code
+```java
      @Test
   public void myTestReverseSuccess() {
     int[] input1 = {0,0,0,0};
     int[] expected ={0,0,0,0};
     assertArrayEquals(expected, ArrayExamples.reversed(input1));
   }
+```
 
    
 3. The symptom, as the output of running the tests
@@ -36,14 +39,18 @@ This is the method being tested for my lab3:
    
 4. The bug, as the before-and-after code change required to fix it
    Before:
+   ```java
    static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }
+    }
+  ```
   After:
+
+  ```java
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -51,6 +58,7 @@ This is the method being tested for my lab3:
     }
     return newArray;
    }
+  ```
 5. Briefly describe why the fix addresses the issue: Before, the method reversed was copying the elements from newArray into the inout array arr. Since newArray does not have any elements in it, the for loop was putting 0s in all the indicies.
    Now, reversed is inputting the reverse elemnts of arr into newArray and returning the newArray instead of the old one (arr).
 
@@ -145,6 +153,9 @@ chapter-3.txt
 The grep -l command gives us the files that contain the string given. This is useful if we forget which file has the information we need.
 Let's say we forgot which chapters discuss Bin Laden. we can use this command to give us the chapters that discuss Bin Laden instead of scanning
 through all the files.
+
+Citation:
+@avi122186, @yashbeersingh42, @meetgor, @simmytarika5, @saurabh1990aror, @anikaseth98, and @nicolasalahmar. “GREP Command in Unix/Linux.” GeeksforGeeks, GeeksforGeeks, 15 Nov. 2022, www.geeksforgeeks.org/grep-command-in-unixlinux/. 
   
 
    
