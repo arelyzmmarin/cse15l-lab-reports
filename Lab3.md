@@ -65,7 +65,7 @@ This is the method being tested for my lab3:
 
    Grep Commands
 
-1. grep -i "string" <file-name>:
+   <ins>grep -i "string" <file-name>:</ins>
       ArelyzsMacBook2:biomed arelyzmarin$ grep -i "bMi" 1468-6708-3-1.txt
         between body mass index (BMI) and mortality, controlling
         excess risk for persons with very low BMI, but that persons
@@ -109,7 +109,7 @@ This is the method being tested for my lab3:
       The grep -i command is a case insensitive search for a word. This command ignores cases and retrieves any variation of the word being searched.
       For example in the first example, grep -i "bMi" the command could have returned sentences with "BMI", "bmi, "bMi",etc.
 
-      2. grep -n "string" <file-name>:
+  <ins>grep -n "string" <file-name>:</ins>
          ArelyzsMacBook2:biomed arelyzmarin$ grep -n  "hypothesis" 1471-213X-2-1.txt
 37:        hypothesis that a balance exists between serine proteases
 40:        initiated to test this hypothesis 
@@ -130,7 +130,7 @@ ArelyzsMacBook2:911report arelyzmarin$ grep -n  "Canada" chapter-6.txt
 The grep -n command outputs the line number that the word being searched for is in. 
 This helps us find a word in a document without having to read the whole file.
 
-3. grep -c "string" <file-name>:
+<ins>grep -c "string" <file-name>:</ins>
    ArelyzsMacBook2:911report arelyzmarin$ grep -c "terrorism" chapter-6.txt
   67
 
@@ -139,7 +139,7 @@ This helps us find a word in a document without having to read the whole file.
 The grep -c command returns the amount of lines a word appears in a file. This information could tell you of often occurences or abscences
 of words.
 
-4. grep -l <string> *:
+<ins>grep -l <string> *:</ins>
    ArelyzsMacBook2:911report arelyzmarin$ grep -l "Bin Laden" *
 chapter-11.txt
 chapter-13.3.txt
@@ -155,7 +155,8 @@ The grep -l command gives us the files that contain the string given. This is us
 Let's say we forgot which chapters discuss Bin Laden. we can use this command to give us the chapters that discuss Bin Laden instead of scanning
 through all the files.
 
-Citation:
+<ins>Citation:</ins>
+
 @avi122186, @yashbeersingh42, @meetgor, @simmytarika5, @saurabh1990aror, @anikaseth98, and @nicolasalahmar. “GREP Command in Unix/Linux.” GeeksforGeeks, GeeksforGeeks, 15 Nov. 2022, www.geeksforgeeks.org/grep-command-in-unixlinux/. 
   
 
