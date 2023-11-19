@@ -35,7 +35,7 @@
    <esc>
    :wq!
    ```
-   The vim command is used to edit the file ListExamples.java. Pressing enter executes this command and the file ListExamples.java will be opened up in our vim editor and ready for edits to be made. I typed "/index1" and <enter> to tell vim to find all the instances where index1 is found throughout the file. Pressing N gives me the last instance of index1, which is what needs to be changed. Pressing e highlights the last character in the word index1. Pressing x deletes that character; the key i puts us into insert mode on vim, and pressing 2 changes index1 to index2, correcting the test. Pressing the esc key gets the file out of insert mode and back to normal mode. Then I pressed :,w,q, and ! to save and exit from the vim editor.\
+   The vim command is used to edit the file ListExamples.java. Pressing enter executes this command and the file ListExamples.java will be opened up in our vim editor and ready for edits to be made. I typed "/index1" and <enter> to tell vim to find all the instances where index1 is found throughout the file. Pressing N gives me the last instance of index1, which is what needs to be changed. Pressing e highlights the last character in the word index1. Pressing x deletes that character; the key i puts us into insert mode on vim, and pressing 2 changes index1 to index2, correcting the test. Pressing the esc key gets the file out of insert mode and back to normal mode. Then I pressed :,w,q, and ! to save and exit from the vim editor.
    
    ![Image](step4.png)
 5. Run the tests, demonstrating that they now succeed\
