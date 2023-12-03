@@ -88,6 +88,7 @@ The student knew that in order to check the list if it included a string, it nee
 In order to fix this, the upper bound in the for loop needed to be changed from size()-2 to size()-1. This will count every element in the list without forgetting anything.
 
 Part 2 – Reflection
+Something cool that I learned in my labs was nagivating vim. I have seen so many memes of vim on Instagram and TikTok, but I had no clue what they meant. Now I can understand these jokes as well as use vim in my classes, internships, etc. It was fun memeorizing the different commands becuase even though I can type fast, the vim commands make typing even more faster and efficient for me.
 
 
 
