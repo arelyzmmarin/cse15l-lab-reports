@@ -6,6 +6,7 @@ Part 1 – Debugging Scenario
 3. Now we can see that something is wrong in the for loop and it is not checking all of the elements since "Avocados" is not being printed.
 
 4. The file & directory structure needed:
+```
 Lab5
   -lib 
     -hamcrest-core-1.3.jar
@@ -15,6 +16,7 @@ Lab5
   -groceryTests.java
   -groceryTests.class
   -tesh.sh
+```
 
 **The contents of each file before fixing the bug:**
 
@@ -37,7 +39,7 @@ public class BugExample {
     }
 }
 ```
-groceryTests.jav:
+groceryTests.java:
 
 ```
 import static org.junit.Assert.*;
