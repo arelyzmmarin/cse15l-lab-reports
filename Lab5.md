@@ -1,11 +1,12 @@
 Part 1 – Debugging Scenario
 1. Student: Hello, I am having trouble with my code. I made a code that would tell me if a string is in my grocery list and return true if so. I added "Avocados" to my grocery list but when I use my method to check if its there I ge false. How do I fix it?
+![Image](code.png)
+![Image](error.png)
+3. TA: I would recommend printing out the items in your array in the for loop to see if the loop is checking all the items in your list. It looks like Avocados is the last in your list. How can you make sure the last item is still counted?
 
-2. TA: I would recommend printing out the items in your array in the for loop to see if the loop is checking all the items in your list. It looks like Avocados is the last in your list. How can you make sure the last item is still counted?
+4. Now we can see that something is wrong in the for loop and it is not checking all of the elements since "Avocados" is not being printed.
 
-3. Now we can see that something is wrong in the for loop and it is not checking all of the elements since "Avocados" is not being printed.
-
-4. The file & directory structure needed:
+5. The file & directory structure needed:
 ```
 Lab5
   -lib 
